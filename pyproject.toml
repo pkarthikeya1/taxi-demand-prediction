@@ -10,7 +10,7 @@ packages = [
 
 
 [tool.poetry.dependencies]
-python = ">3.9.7,<3.13"
+python = ">=3.9,<3.9.7 || >3.9.7,<3.13"
 hopsworks = "^3.7.0"
 jupyter = "^1.0.0"
 pandas = "<2.2.0"
@@ -19,15 +19,15 @@ tqdm = "^4.66.2"
 plotly = "^5.20.0"
 scikit-learn = "^1.4.2"
 xgboost = "^2.0.3"
-lightgbm = "^4.3.0"
 optuna = "^3.6.1"
 python-dotenv = "^1.0.1"
 matplotlib = "^3.8.4"
 chardet = "^5.2.0"
 charset-normalizer = "^3.3.2"
 numpy = "^1.26.4"
-streamlit = "^1.35.0"
-geopandas = "^0.14.4"
+streamlit = "^1.36.0"
+geopandas = "^1.0.1"
+lightgbm = "4.1.0"
 
 
 [build-system]
