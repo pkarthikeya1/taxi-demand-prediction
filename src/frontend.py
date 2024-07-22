@@ -20,7 +20,7 @@ from src.plot import plot_one_sample
 
 st.set_page_config(layout="wide")
 
-current_date = pd.Timestamp("2024-03-01").floor("h").tz_localize('UTC')
+current_date = pd.to_datetime("2024-03-01").floor("h").tz_localize('UTC')
 st.title(f"Taxi demand prediction 🚕")
 st.header(f"{current_date}")
 
